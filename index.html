@@ -5,24 +5,25 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Музыкальный плеер</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
+  <header class = "animated-section">
     <h1>Плеер</h1>
   </header>
-  <nav>
+  <nav role = "navigation">
     <a href="#home">Главная</a>
     <a href="#features">Особенности</a>
     <a href="#contacts">Контакты</a>
   </nav>
   <main>
-    <section id="hero">
-      <img src="https://i.pinimg.com/originals/27/06/f2/2706f23dece5d96352d829dccb996a30.png" alt="Музыкальный поеер">
-      <h2 class = "fade-in">Добро пожаловать в будущее музыкпи</h2>
+    <section id="hero" class = "fade-in">
+      <h2>Добро пожаловать в будущее музыкпи</h2>
       <p>Слушай музыку без границ с нашим плеером.</p>
+      <img src="https://i.pinimg.com/originals/27/06/f2/2706f23dece5d96352d829dccb996a30.png" alt="Музыкальный плеер">
       <a href="#download">Скачать</a>
     </section>
-    <section id="features" class  = "features-section">
+    <section id="features" class  = "animated-section">
       <h2>Почему выбирают нас?</h2>
       <article>
         <h3>Социальность</h3>
@@ -66,15 +67,15 @@
         </tbody>
       </table>
     </section>
-  </main>
-  <footer>
-    <section id="contacts" data-animation = "slide">
+  <section id="contacts" data-animation = "slide">
       <h2>Подпишись на обновления</h2>
       <form class = "subscribe-form" aria-label="Форма подписки на обновления">
         <label for="email">Email:</label>
         <input type="email" id = "email" placeholder = "Введи свой email" required>
         <button type = "submit" id = "submit-button" class = "cta-button" data-animation = "slide">Подписаться</button>
       </form>
+  </main>
+  <footer>
     <p>© 2025 Плеер. Все права защищены</p>
   </footer>
 </body>
