@@ -22,7 +22,7 @@
       <p>Слушай музыку без границ с нашим плеером.</p>
       <a href="#download">Скачать</a>
     </section>
-    <section id="features">
+    <section id="features" class  = "features-section">
       <h2>Почему выбирают нас?</h2>
       <article>
         <h3>Социальность</h3>
@@ -38,16 +38,43 @@
         <li>Персонализированные плейлисты</li>
       </ul>
     </section>
-    <section id="contact">
-      <h2>Подпишись на обновления</h2>
-      <form>
-        <label for="email">Email:</label>
-        <input type="email" id = "email" placeholder = "Введи свой email" required>
-        <button type = "submit">Подписаться</button>
-      </form>
+    </section>
+    <section id="pricing">
+      <h2>Тарифы нашего плеера</h2>
+      <table>
+        <thead>
+          <tr>
+            <th scope = "col">Тариф</th>
+            <th scope = "col">Цена</th>
+            <th scope = "col">Особенности</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th colspan = "3">Наши тарифы</th>
+          </tr>
+          <tr>
+            <td>Бесплатный</td>
+            <td>0 ₽</td>
+            <td>Базовый доступ</td>
+          </tr>
+          <tr>
+            <td>Премиум</td>
+            <td>499 ₽/мес</td>
+            <td>Офлайн-режим, без рекламы</td>
+          </tr>
+        </tbody>
+      </table>
     </section>
   </main>
   <footer>
+    <section id="contact">
+      <h2>Подпишись на обновления</h2>
+      <form class = "subscribe-form">
+        <label for="email">Email:</label>
+        <input type="email" id = "email" placeholder = "Введи свой email" required>
+        <button type = "submit" id = "submit-button">Подписаться</button>
+      </form>
     <p>© 2025 Плеер. Все права защищены</p>
   </footer>
 </body>
